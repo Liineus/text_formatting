@@ -1,0 +1,97 @@
+body { 
+	
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+@font-face {
+	
+	font-family: ScriptinaPro;
+	src: url(ScriptinaPro.otf);
+	
+}
+
+@font-face {
+	
+	font-family: Dosis-ExtraLight;
+	src: url(Dosis-ExtraLight.ttf);
+	
+}
+	
+
+.zdjecie {
+	
+	margin: 0px auto auto 0px;
+	position: relative;
+	z-index: 5;
+	border-left: 50px solid #142545;
+	border-top: 50px solid #142545;
+
+}
+
+.imie_nazwisko {
+	
+	font-family: ScriptinaPro;
+	font-size: 120px;
+	background-color: #142545;
+	margin-top: -660.5px;
+	margin-left: 500px;
+	position: relative;
+	z-index: 4;
+	text-align: center;
+	color: #FFFFFF;
+	
+}
+
+h1 {
+	
+	font-size: 40px;
+
+}	
+
+.wiersz {
+	
+	font-family: Dosis-ExtraLight;
+	margin-top: 100px;
+	padding-top: 25px;
+	margin-right: 50px;
+	margin-left: 550px; 
+	padding-bottom: 50px;
+	color: #3B2D26;
+	border-top: 5px double #3B2D26;
+	border-bottom: 5px double #3B2D26;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 16px;
+	border-left: 5px solid #142545;
+	
+}
+
+.koniec_strony {
+	
+	height: 100px;
+	background-color: #27263B;
+	
+}
+
+.flaga_pion {
+	
+	height: 25px;
+	position: relative;
+	z-index: 1;
+	background-color: #BA1430;
+	margin-top: -1480px;
+	
+}
+
+.flaga_poz {
+	height: 696px;
+	width: 25px;
+	position: relative;
+	z-index: 1;
+	background-color: #BA1430;
+	margin-left: 25px;
+	margin-top: 659px;
+

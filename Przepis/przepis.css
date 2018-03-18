@@ -1,0 +1,105 @@
+@font-face {
+
+	font-family: YrsaR;
+	src: url(Yrsa-Regular.otf);
+
+}
+
+@font-face {
+
+	font-family: YrsaL;
+	src: url(Yrsa-Light.otf);
+
+}
+
+@font-face {
+	
+	font-family: KubaRR;
+	src: url(KubaRecznyNeue-Regular.otf);
+	
+}
+
+@font-face {
+	
+	font-family: HaginCapsThin;
+	src: url(HaginCapsThin.otf);
+	
+}
+
+@font-face {
+	
+	font-family: IntroCondLightFree;
+	src: url(IntroCondLightFree.otf);
+	
+}
+
+@font-face {
+	
+	font-family: HaginCapsMedium;
+	src: url(HaginCapsMedium.otf);
+	
+}
+
+body {
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+}
+
+.kotleciki {
+	width: 100%;
+	margin: auto;
+}
+
+.tytuł_strony {
+	font-size: 65px;
+	font-family: YrsaR;
+	text-align: center;
+	background-color: #97B396;
+}
+
+.podtytuł_strony {
+	margin-top: -15px;
+	font-size: 43px;
+	font-family: KubaRR;
+	background-color: #97B396;
+	text-align: center;
+}
+
+.przepis_tytul {
+	font-family: HaginCapsThin;
+	background-color: #97B396;
+	font-size: 20px;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 8.6%;
+	text-align: center;
+}
+
+.przepis_naglowek {
+	
+	font-family: HaginCapsThin;
+	font-size: 16px;
+	margin-left: 10%;
+	background-color: #97B396;
+	padding-left: 15px;
+
+}
+
+.przepis_tresc {
+	font-family: Calibri;
+	font-size: 16px;
+	margin-left: 10%;
+	border-left: 5px solid #97B396;
+	padding-left: 10px;
+}
+
+.enter2 {
+	height: 10%;
+	border-bottom: 50px solid #2f302a;
+}	
+
+.enter {
+	height: 5.7%;
+}	
+

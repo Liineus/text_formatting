@@ -1,0 +1,129 @@
+@font-face {
+
+	font-family: RymanEco;
+	src: url(RymanEco-Regular.otf);
+
+}
+
+@font-face {
+	
+	font-family: KaffeesatzR;
+	src: url(YanoneKaffeesatz-Regular.otf);
+	
+}
+
+body {
+	background-color: #A3A08E;
+	margin: 0px;
+	max-width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.main_head {
+	margin: 0px auto;
+	max-width: 100%;
+	font-family: RymanEco;
+	font-size: 80px;
+	color: #990033;
+	background-color: #D9D8CA;
+	padding-left: 40px;
+	padding-right: 40px;
+	position: relative;
+	z-index: 10;
+}
+
+.car {
+	padding-left: 60px;
+	padding-top: 60px;
+	height: 465px;
+	width: 768px;
+	position: relative;
+	z-index: 9;
+}
+
+.car_background {
+	margin: -505px 0px 0px 20px;
+	height: 465px;
+	width: 768px;
+	background-color: #2f302a;
+	position: relative;
+	z-index: 8;
+}
+
+.vertical_line1 {
+	width: 1.5px;
+	height: 104%;
+	background-color: #990033;
+	position: absolute;
+	z-index: 10;
+	margin: -678px auto auto 880px;
+}
+	
+.vertical_line2 {
+	width: 1.5px;
+	height: 104%;
+	background-color: #990033;
+	position: absolute;
+	z-index: 10;
+	margin: -678px auto auto 883px;
+}
+
+.vertical_line3 {
+	width: 1.5px;
+	height: 104%;
+	background-color: #990033;
+	position: absolute;
+	z-index: 10;
+	margin: -678px auto auto 886.5px;
+}
+
+.vertical_line4 {
+	width: 13px;
+	height: 104%;
+	background-color: #D9D8CA;
+	position: absolute;
+	z-index: 9;
+	margin: -678px auto auto 877.25px;
+}
+
+
+.cena {
+	text-align: center;
+	background-color: #2f302a;
+	height: 98.1%;
+	margin: -699px auto auto 890px;
+	position: relative;
+	z-index: 11;
+	font-size: 60px;
+	padding-top:35px;
+	color: #FFFFF0;
+	font-family: RymanEco;
+}
+
+.parametry {
+	background-color:#A3A08E;
+	margin: -670px 40px auto 930px;
+	position: relative;
+	z-index: 11;
+	font-family: KaffeesatzR;
+	font-size: 20px;
+	padding: 40px;
+	color: #2f302a;
+}
+
+.numer {
+	background-color:#A3A08E;
+	margin: 12px 40px 0px 930px;
+	max-height: 100%;
+	height: 5.5%;
+	position: relative;
+	z-index: 11;
+	font-family: KaffeesatzR;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	color: #2f302a;
+	margin-bottom: -10px;
+}
